@@ -10,5 +10,5 @@ def save_team_gamelog_to_csv(team_id: int, file_name: str):
 
 # Example usage
 if __name__ == "__main__":
-    team_id = 1610612744  # Golden State Warriors
-    save_team_gamelog_to_csv(team_id, "warriors_gamelog.csv")
+    team_id_example = 1610612744  # Golden State Warriors
+    save_team_gamelog_to_csv(team_id_example, "warriors_gamelog.csv")
